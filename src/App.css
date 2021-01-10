@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+.app{
+  margin: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header{
+  display: flex;
+  background-color: #ff742b;
+  margin-left: 115px;
+  margin-right: 135px;
+  justify-content: space-between;
+  align-items: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header_logo{
+  height: 60px;
+  object-fit: contain;
 }
+.middle{
+  display: flex;
+  flex: 1;
+}
+.text{
+  margin-right: 20px;
+}
+.text >p {
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 5px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+.middle > input{
+  flex: 1;
+  border: none;
+}
+.middle{
+  border: 1px solid white;
+  background-color: white;
+  padding: 6px;
+}
+.middle > input {
+  flex: 1;
+  border: none transparent;
+  outline: none;
+  font-size: 20px;
+}
+.input_logo{
+  height: 15px;
+  object-fit: contain;
+}
+.end{
+  display: flex;
+  margin-left: 25px;
+  align-items: center;
+}
+.end > p{
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 10px;
+}
+.app_signup{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app_logo{
+  height: 40px;
+  object-fit: contain;
 }

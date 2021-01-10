@@ -1,0 +1,35 @@
+.body_lo > a{
+   text-decoration: none;
+   color: inherit;
+}
+.body{
+    background-color: #f6f6ef;
+    margin-left: 115px;
+    margin-right: 135px;
+}
+.body_lo{
+    margin-left: 15px;
+  
+}
+.map_v{
+    margin-top: 7px;
+
+}
+.low{
+    margin-left: 15px;
+}
+.low >a{
+    text-decoration: none;
+    color: inherit;
+    margin-right: 16px;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+.bottom > a{
+    margin: 15px;
+}
